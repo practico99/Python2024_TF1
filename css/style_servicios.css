@@ -1,0 +1,72 @@
+/* cuadro fondo */
+.cont_fondo{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* titulo */
+.servicios_tit{
+    margin-top: 0.3em;
+    padding: .2em; 
+    font-size: 3em;
+    text-align: center;
+}
+
+
+/* lista servicios */
+.item_lista{
+    border-top: 1px solid #fff;
+    margin-top: 5%;
+}
+
+.lista_servicios ul li{
+    margin-top: 0.5rem; 
+    text-decoration: none;
+    overflow: hidden;
+    animation-duration: 1.5s;
+    animation-name: slidetop;
+}
+
+.lista_servicios ul li h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.lista_servicios ul li p{
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+/* ajustes botón */
+.cont_boton{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* ajustes pie */
+.redes{
+    margin-top: 1.5rem;
+}
+
+/* ajuste tamaño dispositivo */
+@media (max-width: 62em){
+
+    .servicios_tit{
+        font-size: 2.3em;
+    }
+    
+    .lista_servicios{
+        margin: 1rem 1.6rem 0.5rem 0rem;
+        padding: 0;
+    }
+
+    .lista_servicios ul li h3{
+        font-size: 1.6rem;
+        padding-top: 1rem;
+    }
+    
+    .lista_servicios ul li p{
+        font-size: 0.9rem;
+    }
+    
+
+}

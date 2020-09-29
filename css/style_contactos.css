@@ -1,0 +1,95 @@
+/*    
+*       CAC FS PYTHON - Curso PYTHON-FRONT END 
+*       Comisión: 2024 - CHAPARRO JAVIER
+*/
+
+/* cuadro fondo */
+.cont_fondo{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* titulo principal */
+.cont_bloque_tit{
+    position: relative;
+}
+
+.cont_tit h2{
+    margin-left: 1rem;
+    bottom: 2rem;
+    font-size: 5em;
+    position: absolute;
+}
+
+/* imagen principal */
+.cont_img{
+    margin:10;
+    padding: 0;
+    height: 22rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.cont_img > .crop {
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 90%;
+    min-width: 90%;
+}
+
+/* datos contacto */
+.cont_dir{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.cont_etiq{
+    color: hsl(0, 0%, 55%)
+}
+
+.cont_camp{
+    font-size: 2em;
+}
+
+/* formulario contacto */
+.cont_form{
+    padding: 0;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 0.8rem 1.5rem 3rem 1.5rem;
+    margin: 0.5rem;
+}
+
+.cont_form h3{
+    font-size: 1.4rem;
+}
+
+/* ajuste pie */
+.redes{
+    margin-top: 2%;
+}
+
+/* ajuste tamaño dispositivo */
+@media (max-width: 62em){
+
+    .cont_img{
+        margin:10;
+        padding: 0;
+        height: 11rem;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .cont_tit h2{
+        font-size: 2.6em;
+        text-shadow: 2px 2px 2px rgb(19, 19, 20);
+    }
+    
+    .cont_camp{
+        font-size: 1em;
+    }
+
+}

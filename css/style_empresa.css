@@ -1,0 +1,111 @@
+/*    
+*       CAC FS PYTHON - Curso PYTHON-FRONT END 
+*       Comisión: 2024 - CHAPARRO JAVIER
+*/
+
+/* titulo empresa */
+.tit_empresa{
+    margin-top: 1.5rem;
+    font-size: 3em;
+    overflow: hidden;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+
+/* mapa */
+.cont_map_empresa{
+    max-width: 100VW;
+    background-color: #000;
+    border-top: 0.5vw solid #000;
+}
+
+.map_empresa{
+    width: 100%;
+}
+
+/* descripción empresa */
+.cont_descrip_empresa{
+    margin-top: 2.5em;
+    margin-right: 2em;
+    padding: 0;
+    font-size: 1.9em;    
+    text-align: justify;
+}
+
+/* foto edificio */ 
+.cont_img_empresa{
+    margin:0;
+    padding: 10;
+    height: 28em;
+    overflow: hidden;
+    position: relative;
+}
+
+.cont_img_empresa > .crop {
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* cuadro fondo */
+.cuadro{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* boton */
+.cont_boton_empresa{
+    padding-block: 1em;
+    margin-left: 70%;
+}
+
+/* ajuste pie */
+.redes{
+    margin-top: 2%;
+}
+
+/* ajuste tamaño dispositivo */
+@media (max-width: 62em){
+
+    .tit_empresa{
+        font-size: 2.3em;
+        text-align: center;
+    }
+    
+    .cont_img_empresa{
+        height: 22em;
+    }
+
+    .cont_descrip_empresa{
+        margin: 0.5em 0.5em 0.5em 0.5em;
+        padding: 0;
+        font-size: 0.9em;    
+        text-align: justify;
+    }
+
+    .cont_boton_empresa{
+        padding-block: 1em;
+        margin-left: 60%;
+    }
+
+}
+
+@media screen and (max-width:75em) and (min-width: 62em){
+
+    .cont_descrip_empresa{
+        font-size: 1.2em;    
+    }
+
+    .cont_boton_empresa{
+        padding-block: 1em;
+        margin-left: 50%;
+    }
+    
+
+}
+
