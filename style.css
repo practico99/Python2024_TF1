@@ -1,0 +1,111 @@
+/*    
+*       CAC FS PYTHON - Curso PYTHON-FRONT END 
+*       Comisión: 2024 - CHAPARRO JAVIER
+*/
+
+/* fondo */
+body{
+    color: #fff;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../images/escritorio-min.jpg");
+    font-family: 'Merriweather Sans', sans-serif; 
+}
+
+/* ajuste menu */
+.navbar{
+    padding: 0;
+}
+
+/* ajuste texto */
+.cont_fondo_home, footer{
+    text-align: center;
+}
+
+/* cuadro fondo */
+.cont_home{
+    margin: 7rem 4rem 4rem 4rem;
+    overflow: hidden;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* marca */
+.cont_home_tit{
+    padding: 2rem 0 2rem 0;
+}
+
+.titulo_home{
+    font-size: 8em;
+}
+
+/* slogan */
+.slogan_home{
+    font-size: 3vw;
+}
+
+.cont_home_esl{
+    overflow: hidden;
+    animation-duration: 2.5s;
+    animation-name: slidein;    
+}
+
+/* pie */
+.redes a{
+    padding: 1%;
+    font-size: 1.2rem;
+}
+
+.autor{
+    margin-top: 1.4rem;
+    font-size: 0.8em; 
+}
+
+.boton{
+    border: 2px solid;
+	animation: changeColor 5s linear 0.5s normal forwards runnnin;
+}
+
+
+/* slice derecha */
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* slice arriba */
+@keyframes slidetop {
+    from {
+        margin-top: 100%;
+        height: 300%;
+    }
+    
+    to {
+        margin-top: 0%;
+        height: 100%;
+    }
+}
+
+
+/* ajuste tamaño dispositivo */
+@media (max-width: 62em){
+
+    .titulo_home{
+        font-size: 2.9rem;
+    }
+
+    .slogan_home{
+        font-size: 1.5rem;
+    }
+}
