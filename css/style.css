@@ -40,7 +40,7 @@ body{
 }
 
 .titulo_home{
-    font-size: 7em;
+    font-size: 8.5em;
     text-align: center;	
 }
 
@@ -103,7 +103,7 @@ body{
 @media (max-width: 62em){
 
     .titulo_home{
-        font-size: 2.9rem;
+        font-size: 2.2rem;
     }
 
     .slogan_home{
